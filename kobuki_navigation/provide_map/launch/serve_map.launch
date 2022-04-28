@@ -1,0 +1,3 @@
+<launch>
+<node pkg="map_server" type="map_server" name="serve_map" output="screen" args="$(find provide_map)/my_map.yaml" />
+</launch>
