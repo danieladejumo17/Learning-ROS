@@ -1,0 +1,13 @@
+map_frame: "map"
+map_update_interval: 1.0
+
+maxRange: 8.0
+maxURange: 2.0
+minimumScore: 200
+
+xmin: -100
+ymin: -100
+xmax: 100
+ymax: 100
+delta: 0.05
+
