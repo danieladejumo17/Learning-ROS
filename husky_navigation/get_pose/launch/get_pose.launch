@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="get_pose" type="get_pose_service.py" name="get_pose" output="screen" />
+</launch>

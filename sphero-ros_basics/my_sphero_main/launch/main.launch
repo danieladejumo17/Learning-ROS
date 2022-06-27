@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find my_sphero_main)/launch/crash_detection.launch" />
+    <include file="$(find my_sphero_main)/launch/record_odom.launch" />
+    <node pkg="my_sphero_main" type="main.py" name="main" output="screen" required="true" />
+</launch>

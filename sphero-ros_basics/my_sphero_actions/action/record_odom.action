@@ -1,0 +1,11 @@
+# goal
+int32 duration
+---
+# result
+nav_msgs/Odometry[] result_odom_array
+bool exited
+int32 time_used
+---
+# feeback
+int32 time_left
+
